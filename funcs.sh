@@ -6,3 +6,7 @@ function p {
       echo "$_"
     done
 }
+
+function get_context {
+  return context
+}
